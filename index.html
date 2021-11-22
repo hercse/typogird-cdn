@@ -37,7 +37,7 @@
     </style>
 </head>
 
-<body>
+<body grain>
     <div class="flex h-100vh" style="align-items: center;">
         <div class="gcg">
             <div class="gcg-3-15">
@@ -52,7 +52,7 @@
 <script>
     const subdomain = window.location.hostname.split('.').slice(0, -2).join('.');
     console.log(subdomain); // "my.company"
-    document.querySelector('.subdomain').innerHTML = subdomain + 'hercs.art';
+    document.querySelector('.subdomain').innerHTML = subdomain + '.hercs.art';
 </script>
 
 </html>
