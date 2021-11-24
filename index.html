@@ -28,7 +28,9 @@ https://www.youtube.com/watch?v=Uz9k6QGqXj0
     var vanillaScript = document.createElement('script')
     vanillaScript.type = 'module'
     vanillaScript.src = 'https://hercs.art/subdomain/index.js'
-    document.body.appendChild(vanillaScript)
+    setTimeout(() => {
+        document.body.appendChild(vanillaScript)
+    }, 2000);
 </script>
 
 </html>
