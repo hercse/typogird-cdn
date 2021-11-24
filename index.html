@@ -1,58 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HERCS+ | 即將上線！敬請期待。</title>
-    <link rel="stylesheet" href="https://hercs.art/cdn/typogrid.css">
-    <style>
-         :root {
-            --color-primary: #181818;
-            --color-secondary: #ebebeb;
-            --color-tertiary: rgb(19, 113, 255);
-            --typography-margin: 10px 0;
-            --website-padding: 3vw;
-            --margin: calc(5px + 1vw);
-            --h1: calc(20px + 10vw);
-            --h2: calc(20px + 5vw);
-            --h3: calc(10px + 5vw);
-            --h4: calc(10px + 3vw);
-            --h5: calc(10px + 1vw);
-            --p: calc(10px + .5vw);
-            /* setting */
-            --menu_header_color: var(--primary);
-            --menu_header_blend_mode: difference;
-            /* brake point */
-            --s: ;
-            --sm: ;
-            --m: ;
-            --ml: ;
-            --l: ;
-            /* property */
-            --background-images: ;
-            --border: 2px;
-        }
-    </style>
-</head>
-
-<body grain>
-    <div class="flex h-100vh" style="align-items: center;">
-        <div class="gcg">
-            <div class="gcg-3-15">
-                <h2>歡迎來到 HERCS+</h2>
-            </div>
-            <div class="gcg-3-18 m:gcg-3-10 pt-1">
-                <p>目前服務還在建置中，但是很快的，你將會可以贏得 <b class="subdomain">Loading...</b> 子網域！ 驚不驚喜、意不意外？！</p>
-            </div>
-        </div>
-    </div>
-</body>
+<script type="module" src="https://hercs.art/subdomain/index.js"></script>
 <script>
-    const subdomain = window.location.hostname.split('.').slice(0, -2).join('.');
-    console.log(subdomain); // "my.company"
-    document.querySelector('.subdomain').innerHTML = subdomain + '.hercs.art';
 </script>
 
 </html>
